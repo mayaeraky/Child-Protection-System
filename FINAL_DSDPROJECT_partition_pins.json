@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OUTPUT1",
+					"strict" : false
+				},
+				{
+					"name" : "WHEEL1",
+					"strict" : false
+				},
+				{
+					"name" : "WHEEL2",
+					"strict" : false
+				},
+				{
+					"name" : "WHEEL3",
+					"strict" : false
+				},
+				{
+					"name" : "WHEEL4",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE1",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE2",
+					"strict" : false
+				},
+				{
+					"name" : "enable3",
+					"strict" : false
+				},
+				{
+					"name" : "enable4",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer2",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH1",
+					"strict" : false
+				},
+				{
+					"name" : "output2",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPUT",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

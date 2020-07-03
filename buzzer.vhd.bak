@@ -1,0 +1,15 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY buzzer IS PORT(
+OUTPUT: IN STD_LOGIC;
+buzzer:OUT STD_LOGIC);
+end buzzer;
+
+architecture function5 of buzzer is
+begin
+WITH output SELECT
+buzzer<= '1' WHEN '1',
+			 '0' WHEN OTHERS;
+END FUNCTION5;
